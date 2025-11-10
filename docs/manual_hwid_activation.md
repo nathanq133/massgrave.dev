@@ -19,8 +19,8 @@ To manually activate Windows, follow these steps:
 -   After waiting for a few seconds, Windows should be activated.
 
 :::tip
-If you're seeing error `0x803fa067` while trying to change the product key, disconnect your PC from the internet and try changing the product key again.   
-After you have done that, connect to the internet again and Windows should be activated.
+ If you're seeing error 0x803fa067 while trying to change the product key, disconnect your PC from the internet and try changing the product key again.
+If you still have trouble, open Command Prompt (Admin) and run the following command `slmgr /ipk ENTER ACTIVATION KEY HERE`, replacing ENTER ACTIVATION KEY HERE with the correct license key listed below.
 :::
 
 ### Windows 10/11
@@ -58,5 +58,6 @@ After you have done that, connect to the internet again and Windows should be ac
 | Team                                  | XKCNC-J26Q9-KFHD2-FKTHY-KD72Y | [Link](https://github.com/massgravel/hwid-kms38-tickets/releases/latest/download/Team.xml)                                  |
 
 ## Troubleshooting
+
 
 Check [here](troubleshoot.md) for links to our support channels.
